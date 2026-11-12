@@ -1,0 +1,71 @@
+{
+  "human": {
+    "dialogue": 4,
+    "quotes": [
+      {
+        "speaker": "Monica",
+        "utterance_id": 3,
+        "text": "Oh my God!"
+      },
+      {
+        "speaker": "Phoebe",
+        "utterance_id": 4,
+        "text": "Oh no wait, oh no, the elastic on my underwear busted."
+      },
+      {
+        "speaker": "Monica",
+        "utterance_id": 6,
+        "text": "Oh wait, Joey, you can't go like that! You stink!"
+      }
+    ],
+    "trajectories": {
+      "Phoebe": [
+        "surprise",
+        "fear"
+      ],
+      "Monica": [
+        "surprise",
+        "disgust"
+      ],
+      "Joey": [
+        "surprise",
+        "fear",
+        "neutral"
+      ]
+    }
+  },
+  "whisper": {
+    "dialogue": 4,
+    "quotes": [
+      {
+        "speaker": "Phoebe",
+        "utterance_id": 0,
+        "text": "Oh!"
+      },
+      {
+        "speaker": "Phoebe",
+        "utterance_id": 2,
+        "text": "It kicked. I think the baby kicked."
+      },
+      {
+        "speaker": "Monica",
+        "utterance_id": 3,
+        "text": "Oh my god."
+      }
+    ],
+    "trajectories": {
+      "Phoebe": [
+        "surprise"
+      ],
+      "Monica": [
+        "surprise",
+        "disgust"
+      ],
+      "Joey": [
+        "surprise",
+        "fear",
+        "neutral"
+      ]
+    }
+  }
+}
